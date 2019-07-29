@@ -4,7 +4,7 @@
 
 # 一. Handler消息机制原理
 
-###1、Handler用到的Looper.prepare()、Looper.loop()何时执行的？
+### 1、Handler用到的Looper.prepare()、Looper.loop()何时执行的？
 
     是在应用启动时，ActivityThread.java的main()方法中；ActivityThread.java是系统的一个类，系统启动时运行。
 
